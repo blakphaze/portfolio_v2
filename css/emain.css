@@ -1,0 +1,119 @@
+/* html {
+    box-sizing: border-box;  
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+header {
+    background-color: #272727;
+    /* background-color: rgb(65, 64, 64); */
+    /* padding: 1.875rem; */
+    /* ffc02e */
+    /*
+}
+.main{
+    background-color: #272727;
+     background-color: rgb(65, 64, 64); 
+    height: 91.7vh;
+    color: #fff;
+}
+h1{
+    /* text-transform: uppercase; 
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
+p {
+    color: white;
+}
+section {
+    padding: 3rem;
+}
+.nav__link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0.94rem;
+}
+.nav__link li{
+    color: #fff;
+    margin-right: 1.875rem;
+}
+.intro {
+    margin-bottom: 1.25rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.lead{
+    margin-top: 1.25rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: 200;
+    color: #ffc02e;
+    /* animation-name: hero;
+    animation-duration: 1s; /
+}
+.container{
+    width: 70%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.icon_set {
+    width: 20px;
+    height: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.75rem;
+    border-radius: 5px;
+}
+.btn_primary {
+    background-color: lightseagreen;
+    margin-top: 15px;
+}
+.btn_secondary {
+    background-color: blueviolet;
+    margin-top: 15px;
+}
+.my_pic {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.about {
+    /* height: 95vh; /
+    background-color: #272727;
+}
+
+.about p {
+    color: #ffc02e;
+} */
+
+/* @keyframes hero {
+    from  {transform: translateX(0);}
+    to {transform: translateX(30px);}
+} */

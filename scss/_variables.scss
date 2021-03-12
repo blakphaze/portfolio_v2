@@ -1,0 +1,15 @@
+$primary-color: #272727;
+$secondary-color: #978ab5;
+$accent-color: #ffc02e;
+$white: #fbf8ff;
+$font-stack: 'Poppins', san-serif;
+
+@mixin paddingGap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@mixin justifyCenter {
+    justify-content: center;
+    align-items: center;
+}

@@ -8,38 +8,126 @@
 
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/ed1da28f80.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header>
         <!-- <img src="" alt=""> -->
-        <nav>
+        <nav class="container">
             <ul class="nav__link">
                 <li><a href="#">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#projects">Projects</a></li> -->
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div>
-            <img src="./img/IMG_20201116_082706_979.jpg" alt="mypic" class="my_pic">
-            <p class="intro">Hello! I'm</p>
-            <h1>Stanley Chukwueke</h1>
-            <p class="lead">Front-End Developer / Freelancer</p>
-            <div>
-                <a href="" class="btn btn_secondary"><img src="./img/linkedin.svg" alt="" class="icon_set"> LinkedIn</a>
-                <a href="" class="btn btn_secondary"><img src="./img/github-logo.svg" alt="" class="icon_set"> Github</a>
+        <section class="main">
+            <div class="container flex_c">
+                <div>
+                
+                <p class="intro">Hello! I'm</p>
+                <h1 class="animate__animated animate__backInUp">Stanley Chukwueke</h1>
+                <p class="lead animate__animated animate__backInUp animate__delay-1s">Front-End Developer / Freelancer</p>
+                <div>
+                    <a href="" class="btn btn_secondary"><img src="./img/linkedin.svg" alt="" class="icon_set"> LinkedIn</a>
+                    <a href="" class="btn btn_secondary"><img src="./img/github-logo.svg" alt="" class="icon_set"> Github</a>
+                </div>
+                <a href="#" class="btn btn_primary">Hire me </a>
+                </div>
+               
+                
             </div>
-            <a href="#" class="btn btn_primary">Hire me </a>
+        </section>
+        <section class="about" id="about">
+            <div class="container about_flex">
+                <div class="about__header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about__content">
+                    <img src="./img/IMG_20201116_082706_979.jpg" alt="mypic" class="my_pic animate__animated animate__zoomIn">
+                    <h3 >A little about me</h3>
+                    <p>Hi! I'm Stanley, a self taught Front-End (and aspiring full-stack) Web Developer and Free-lancer. 
+                        I live and work in Abuja, Nigeria. I have always been facinated by the web and its ever changing 
+                        and advancing technology, though a graduate of Electircal Electronics Engineering but never got 
+                        round to learning how to code. In 2010, i dabled into learning how to code and web freelancing 
+                        but never poured myself into it. Today, I push myself constantly to improve my coding skills and 
+                        much so my design work. I'm looking to take these skills I've learned and apply them to my first 
+                        job as a developer.</p>
+
+                    <p>When I'm not coding, you most likely find me spending quality time with my family. I also enjoy 
+                        catching up on football, basketball and latest movies.</p>
+                    
+                    <h4 class="skill_head">Skills</h4>
+                    <ul class="skill_sets">
+                        <li><i class="fab fa-html5 fa-3x"></i></li>
+                        <li><i class="fab fa-css3 fa-3x"></i></li>
+                        <li><i class="fab fa-sass fa-3x"></i></li>
+                        <li><i class="fab fa-bootstrap fa-3x"></i></li>
+                        <li><i class="fab fa-js fa-3x"></i></li>
+                        
+                    </ul>
+                    <ul class="skill_sets">
+                        <li><i class="fab fa-wordpress fa-3x"></i></li>
+                        <li><i class="fab fa-python fa-3x"></i></li>
+                        <li><i class="fab fa-git-alt fa-3x"></i></li>
+                        <li><i class="fab fa-react fa-3x"></i></li>
+                        <li><i class="fab fa-npm fa-3x"></i></li>
+                        
+                    </ul>
+                    
+                </div>
             </div>
-            
-        </div>
+
+        </section>
+        <!-- <section class="projects" id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="flex_s">
+                    <div class="project_item">
+                        <img src="" alt="">
+                        <div>
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="project_item">
+                        <img src="" alt="">
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project_item">
+                        <img src="" alt="">
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
     </main>
+
+    <footer id="contact">
+        <ul class="contact_info">
+            <li><i class="fas fa-envelope"></i>
+                blakphaze@gmail.com</li>
+            <li><i class="fas fa-phone"></i>
+                +234 803 721 4415</li>
+            
+        </ul>
+        <ul class="social_links">
+            <li><a href="https://www.linkedin.com/in/stanley-chukwueke-03764537/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/blakphaze" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/blakphaze" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li><a href="" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/blakphaze/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+        </ul>
+        <p class="small"><i class="fas fa-copyright"></i> Stanley Chukwueke 2021</p>
+    </footer>
 
 </body>
 </html>
